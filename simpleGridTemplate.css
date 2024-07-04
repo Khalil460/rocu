@@ -1,5 +1,28 @@
 @charset "UTF-8";
 /* Body */
+table {
+
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"sans-serif;
+
+  border-collapse: collapse;
+
+  width: 100%;
+
+}
+ 
+td, th {
+
+  border: 3px solid #6B6B6B;
+	text-align: center;
+  padding: 8px;
+
+}
+ 
+tr:nth-child(even) {
+
+  background-color: #dddddd;
+
+}
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	background-color: #000000;
